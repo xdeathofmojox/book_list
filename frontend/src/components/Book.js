@@ -2,7 +2,7 @@ import { Card, Button, Container, Row, Col } from 'react-bootstrap'
 
 function Book(props) {
     return (
-        <Card bg="dark" text="white" style={{ width: '18rem' }}>
+        <Card bg="dark" text="white" style={{ width: '18rem' }} className="justify-content-md-center m-3">
         <Card.Body>
             <Container>
                 <Row>

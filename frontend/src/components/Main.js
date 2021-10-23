@@ -1,12 +1,14 @@
 import SearchResults from "./SearchResults";
+import SearchForm from "./SearchForm";
 
-function Search() {
+function Main() {
 
   return (
     <>
+        <SearchForm />
         <SearchResults />
     </>
   )
 }
 
-export default Search;
+export default Main;

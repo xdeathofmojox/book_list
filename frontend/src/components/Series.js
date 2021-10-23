@@ -9,7 +9,6 @@ function Series(props) {
                     <Card.Title>{props.series}</Card.Title>
                 </Row>
             </Container>
-
         </Card.Body>
         </Card>
     );

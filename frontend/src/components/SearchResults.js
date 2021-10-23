@@ -9,7 +9,7 @@ function SearchResults() {
             <Row className="justify-content-md-left">
                 {bookData.map((data, key) => {
                     return (
-                        <Book series={data.Name} issue={data.Issue} have={data.Have} need={data.Need}/>
+                        <Book key={key} series={data.Name} issue={data.Issue} have={data.Have} need={data.Need}/>
                     );
                 })}
             </Row>
